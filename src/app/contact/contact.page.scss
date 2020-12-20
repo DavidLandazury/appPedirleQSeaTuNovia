@@ -1,0 +1,44 @@
+strong {
+  font-family: 'Pacifico';
+  font-size: 1.6rem;
+  text-shadow: 2px 4px #fbdde1;
+  color: #eb445a;
+}
+
+#encabezado {
+  padding: 0;
+  text-align: center;
+}
+
+#contenedor {
+  background-color: #fff;
+}
+
+#mapa {
+  margin-top:0;
+  border: 3px solid #eb445a;
+  border-radius: 3px;
+}
+
+#clic {
+  padding-top: 10px;
+  text-align: center;
+  font-family: 'Raleway';
+  font-weight: 600;
+}
+
+.titulo {
+  font-family: 'Pacifico';
+  color: #8896f2;
+}
+
+#fecha {
+  text-align: center;
+  font-family: 'Caveat';
+  padding: 0 0 0.9rem 0;
+  color: #445aeb;
+  font-size: 1.2rem;
+  margin: 0;
+  border: 0;
+  text-shadow: 1px 2px #8896f2;
+}

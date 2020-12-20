@@ -1,20 +1,46 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class="titulo">
+      ¡Fulanita me encantas!
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" id="bodi">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title class="titulo">
+        ¡Fulanita me encantas!
+      </ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div style="position:absolute; text-align:center;">
+    <br>
+    <strong id="pregunta" class="shine">
+      ¿Quieres andar conmigo?
+    </strong>
   </div>
+
+  <div style="margin-bottom:7rem;"></div>
+
+  <div id="container">
+    <div style="position:fixed;">
+      <ion-button size="large" color="new" href="/contact">
+        Sí
+      </ion-button>
+    </div>
+
+    <div id="boton">
+      <ion-button size="large" color="danger" (click)="mover()">No</ion-button>
+    </div>
+
+  </div>
+  <!-- IDEA:
+  <div id="boton">
+    <button ion-button (click) = "mover()">
+      Dale clic
+    </button>
+  </div>
+ -->
 </ion-content>
